@@ -6,7 +6,7 @@ int main()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    // 1212121
+    
     int n;
     double A, B;
     cout << "Введіть число A: ";
@@ -21,6 +21,7 @@ int main()
     case 1: cout << "Результат додавання" << A + B << endl; break;
     case 2: cout << "Результат віднімання" << A - B << endl; break;
     case 3: cout << "Результат множення" << A * B << endl; break;
-    case 4: if (B != 0)cout << "Результат ділення" << A / B << endl; break;
+    case 4: if (A != 0)cout << "Результат ділення" << B / A << endl; break;
+    case 5: if (B != 0)cout << "Результат ділення" << A / B << endl; break;
     }
 }
